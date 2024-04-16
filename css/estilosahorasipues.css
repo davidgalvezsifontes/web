@@ -1,0 +1,438 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	font-family: arial;
+}
+
+
+
+.container-inicio{
+	width: 100%;
+	height: 743px;
+	background-image: url(../img/fondouno.png);
+	background-repeat: no-repeat ;
+	background-size: cover;
+}
+
+.container-acerca-de{
+	width: 100%;
+	height: 743px;
+	background-image: url(../img/fondodos.png);
+	background-repeat: no-repeat ;
+	background-size: cover;
+
+}
+
+.container-servicios{
+	width: 100%;
+	height: 743px;
+	background-image: url(../img/fondotres.png);
+	background-repeat: no-repeat ;
+	background-size: cover;
+	
+}
+
+.container-contactos{
+	width: 100%;
+	height: 743px;
+	background-image: url(../img/fondocuatro.png);
+	background-repeat: no-repeat ;
+	background-size: cover;
+
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 100px;
+	font-size: 1.5em;
+}
+
+.container-info-1{
+	width: 100%;
+	height: 743px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+
+
+}
+
+
+.container-info{
+	width: 100%;
+	height: 743px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+
+
+}
+
+.container-info-2{
+	width: 100%;
+	height: 743px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+
+
+}
+
+.caja{
+	width: 90%;
+	height: 80px;
+	color: white;
+	text-align: center;
+}
+
+.caja-2{
+	width: 90%;
+	height: 80px;
+	color: white;
+	text-align: center;
+}
+
+.caja-2 h3{
+	margin-top: 50px;
+}
+
+
+.caja-1{
+	width: 90%;
+	height: 80px;
+	color: white;
+	text-align: center;
+	margin-top: 400px;
+
+}
+
+.caja-1 p{
+	float: left;
+	margin-left: 60px;
+}
+
+.imagen{
+	float: right;
+	width: 20%;
+	height: 300px;
+	margin-top: 300px;
+	margin-right: 60px;
+	transition: transform 0.3s;
+}
+
+.imagen img{
+	width: 100%;
+	height: 300px;
+}
+
+.imagen{
+	animation: entrada-texto2 2s ease-in-out 1;
+}
+
+.imagen:hover{
+	transform: scale(1.08) ;
+
+}
+
+@keyframes entrada-texto2{
+	from{
+		transform: translateX(-1200px);
+	}
+
+	to{
+		transform: translateX(0px);
+	}
+}
+
+.cajitadetexto{
+	width: 30%;
+	height: 460px;
+	float: left;
+	margin-left: 30px;
+	background-color: rgba(99, 99, 99, 0.6);
+	margin-top: 110px;
+	box-shadow: 0px 0px 10px 5px white;
+}
+
+.imagen-s{
+	width: 50%;
+	height: 200px;
+	margin-top: 20px;
+	transition: transform 0.3s;
+
+
+}
+
+.imagen-s:hover{
+	transform: scale(1.08) ;
+
+}
+
+.imagen-s img{
+	width: 100%;
+	height: 200px;
+	border-radius: 99999999px;
+}
+
+/*Denuevo*/
+
+.imagen-m{
+	width: 80%;
+	height: 200px;
+	margin-top: 20px;
+	transition: transform 0.3s;
+
+
+}
+
+.imagen-m:hover{
+	transform: scale(1.08) ;
+
+}
+
+.imagen-m img{
+	width: 100%;
+	height: 200px;
+	border-radius: 99999999px;
+}
+
+.cajitadetexto-2{
+	width: 30%;
+	height: 460px;
+	float: left;
+	margin-left: 30px;
+	background-color: rgba(0, 0, 20, 0.6);
+	margin-top: 110px;
+	box-shadow: 0px 0px 10px 5px white;
+}
+
+.cajitadetexto-2 p{
+	color: cyan;
+	font-size: 30px;
+}
+
+
+/*Termina*/
+
+.boton{
+	width: 60%;
+	height: 40px;
+	color: white;
+	background-color: darkblue;
+}
+
+.boton:hover{
+	background-color: black;
+}
+
+.container-contact{
+
+	text-align: center;
+	width: 30%;
+	height: 500px;
+	border: radius 5px;
+	backdrop-filter: blur(2px);
+	flex-direction: column;
+	gap: 1.2rem;
+	display: flex;
+	color: white;
+	box-shadow: 10px 10px 20px;
+	margin-left: 500px;
+	margin-top: 80px;
+}
+
+.contacto{
+	width: 30%;
+	height: 500px;
+	color: white;
+	box-shadow: 0px 0px 40px;
+	margin-top: 80px;
+	box-shadow: 0px 0px 10px 5px white;
+
+}
+
+.contacto h2{
+	margin-left: 170px;
+}
+
+.contacto p{
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
+.contacto textarea{
+	margin-left:50px;
+	margin-top: 40px;
+}
+
+.contacto button{
+	margin-left: 100px;
+}
+
+.input{
+	width: 60%;
+	margin-left: 100px;
+}
+
+
+
+h3{
+	color: white;
+	background-size: 20px;
+}
+
+.i{
+	width: 70%;
+	height: 20px;
+}
+
+.footer{
+	width: 100%;
+	height: 120px;
+	background-color: black;
+}
+
+.footer img{
+	width: 90%px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+}
+
+
+.footer h2{
+	color: white;
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.espacio-footer{
+	width: 30%;
+	height: 70px;
+	float: left;
+}
+
+a:hover{
+	color: darkcyan;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.menu{
+		font-size: 10px;
+		height: 100px;
+	}
+
+	.container-acerca-de{
+		height: 1900px;
+		flex-direction: column;
+	}
+
+	.container-info{
+		height: 1900px;
+	}
+
+	.cajitadetexto{
+		width: 90%;
+	}
+
+	.container-servicios{
+		height: 1900px;
+		flex-direction: column;
+	}
+
+	.cajitadetexto-2{
+		width: 90%;
+	}
+
+	.espacio-footer{
+		width: 0%;
+	}
+
+	.footer{
+		display: flex;
+		align-items: center;
+	}
+
+	.footer img{
+		width: 20px;
+		height: 20px;
+		margin-top: 40px;
+	}
+
+	.footer h2{
+		font-size: 15px;
+	}
+
+	.container-inicio p{
+		margin-left: 10px;
+		flex-direction: column;
+	}
+
+	.imagen{
+		margin-right: 10px;
+		height: 70px;
+		margin-top: 400px;
+	}
+
+	.imagen img{
+		height: 70px;
+	}
+
+	.imagen-s img{
+		height: 180px;
+	}
+
+	.contacto{
+	width: 90%;
+	height: 500px;
+	color: white;
+	box-shadow: 0px 0px 40px;
+	margin-top: 80px;
+	box-shadow: 0px 0px 10px 5px white;
+
+}
+
+.contacto h2{
+	margin-left: 130px;
+}
+
+.contacto p{
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+.contacto textarea{
+	margin-left:20px;
+	margin-top: 40px;
+	width: 90%;
+}
+
+.contacto button{
+	margin-left: 70px;
+}
+
+.input{
+	width: 60%;
+	margin-left: 80px;
+}
+
+
+}
+
+
+
